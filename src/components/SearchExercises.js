@@ -30,10 +30,8 @@ const SearchExercises = ( { bodyPart , setBodyPart , setExercises}) => {
         
         setSearch('')
         setExercises(searchedExercises)
+        window.scrollTo({top:2500, behavior:'smooth'})
       }
-    else{
-
-    }
   }
 
   return (
